@@ -1,0 +1,18 @@
+[project]
+name = "logistics-eta-prediction"
+version = "0.1.0"
+description = "An intelligent logistics system that predicts Estimated Time of Arrival (ETA) for shipments using machine learning."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch>=2.0.0",
+    "pandas>=1.5.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "jupyter>=1.0.0",
+    "plotly>=5.0.0",
+    "tqdm>=4.65.0",
+    "ipykernel>=6.0.0",
+]
