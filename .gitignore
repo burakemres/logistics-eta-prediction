@@ -1,2 +1,11 @@
-.directory
-.venv
+# Ignore everything
+/*
+
+# Unignore specific files and directories
+!/data
+!/notebooks
+!/.gitignore
+!/pyproject.toml
+!/README.md
+!/uv.lock
+
